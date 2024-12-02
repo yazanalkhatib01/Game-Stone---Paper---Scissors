@@ -173,6 +173,8 @@ void ShowFinalGameResults(stGameResults GameResults){
     cout << Tabs(2) << "Draw Times: " << GameResults.DrawTimes << endl;
     cout << Tabs(2) << "Final Winner: " << GameResults.FinalWinner << endl;
     cout << Tabs(2) << "----------------------------------------------" << endl;
+
+    SetWinnerScreenColor(GameResults.FinalWinner);
 }
 
 //Main Function--------------------------------------------
